@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{29260796-687c-48ba-b2a2-a3c468e2b1ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chemistry">
+      <UniqueIdentifier>{e6516596-020f-4165-9ce4-9363a973052b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{95ab0448-239c-4747-92f8-3081e056394e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\base\Automaton.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\Bond.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\Orientation.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\Particle.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\Physics.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chemistry\Chemistry.cpp">
+      <Filter>chemistry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chemistry\Neighborhood.cpp">
+      <Filter>chemistry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\chemistry\Reaction.cpp">
+      <Filter>chemistry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\Log.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\util\Random.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="Replicator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\base\Automaton.hpp">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\Bond.hpp">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\Orientation.hpp">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\Parameters.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\Particle.hpp">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\Physics.hpp">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chemistry\Chemistry.hpp">
+      <Filter>chemistry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chemistry\Neighborhood.hpp">
+      <Filter>chemistry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\chemistry\Reaction.hpp">
+      <Filter>chemistry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\Driver.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\Log.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\Math_etc.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\util\Random.hpp">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
